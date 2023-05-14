@@ -634,6 +634,7 @@ img {
   height: 40px;
 
   text-align: left;
+  transition: backgroun-color var(--main-anim-duration) var(--main-cubic);
 }
 
 .foot-btn-icon {
