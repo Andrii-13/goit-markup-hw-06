@@ -157,6 +157,20 @@ img {
   fill: var(--section-background-colour);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* ============= header ================= */
 .header {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -317,6 +331,7 @@ img {
   margin-top: 48px;
 }
 /* ---------- advantages-------- */
+
 .adv-title {
   font-weight: 500;
   font-size: 20px;
